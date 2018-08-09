@@ -1,0 +1,12 @@
+{
+  "name": "ideasgenerator",
+  "version": "1.0.0",
+  "description": "\"Easy way to generate some ideas\"",
+  "main": "index.js",
+  "homepage":"https://marcojovanovic.github.io/IdeasGenerator",
+  "scripts": {
+    "deploy":"gh-pages -d dist"
+  },
+  "author": "\"Marko Jovnovic\"",
+  "license": "ISC"
+}

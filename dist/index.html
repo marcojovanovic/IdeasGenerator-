@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ideas Generator</title>
+  <link href="main.css" rel="stylesheet"/>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <style>
+  
+    .navbar-brand img{
+        width:100px;
+        height:50px;
+    }
+  
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+
+     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand" href="#"><img src="img/idea4.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+   
+    </div>
+  </nav>
+  </div>
+ 
+  <div class="container offset-1">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="card mt-5" style="width: 18rem;">
+          <img class="card-img-top" src="img/ideas.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Ideas Generator</h5>
+            <p class="card-text text-muted">JavaScript ES6 / Bootstrap 4</p>
+          </div>
+          <form class="form-group" id="task-form">
+            <input type="text" class="form-control" name="task" id="task" placeholder="Tvoja Ideja">
+            <input type="submit" value="Dodaj" class="btn btn-warning btn-lg btn-block">
+          </form>
+          
+        
+            <input class="form-control" type="text" name="filter" id="filter" placeholder="Filter">
+             <input type="submit" value="Ukloni" class="btn btn-outline-warning btn-lg btn-block clear-tasks">
+         
+         
+
+        </div>
+      </div>
+      <div class="col-md-5 mt-5 offset-2">
+        <div class="card" style="width: 18rem;">
+        
+          <div class="card-body">
+            <h5 class="card-title">Moje Ideje</h5>
+            <ul class="list-group"></ul>
+          </div>
+          <img class="card-img-bottom" src="img/ideas1.jpg" alt="Card image cap">
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="footer py-3 my-4 bg-light text-center">
+      <h5 class="display-5">Made by Marco&copy July 2018</h5>
+    </div>
+  </div>
+
+
+
+
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
